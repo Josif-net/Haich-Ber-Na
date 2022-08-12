@@ -75,6 +75,8 @@ a:visited{
 
 .coming-soon{
   font-size: 30px;
+  font-weight: 800;
+  word-spacing: 10px;
   display: block;
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
@@ -88,6 +90,10 @@ a:visited{
 
 @media (max-width: 700px) {
 
+    .BGImage{
+      overflow: hidden;
+      height: 100vh;
+    }
 
   .FooterTxt{
     font-size: 70px;
