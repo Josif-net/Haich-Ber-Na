@@ -64,12 +64,16 @@ input[type="submit" i] {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
+     body {
+        overflow: hidden; 
+    }
+ 
+ 
     .remi{
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
         margin-top: 50px;
-        overflow-y: hidden;
     }
     
     
