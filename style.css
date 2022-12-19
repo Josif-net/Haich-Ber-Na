@@ -243,7 +243,6 @@ body{
     padding: 0.25em 0.5em;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    display: inline-block;
     background: #fff;
     border: 2px solid #2f5aa6;
     cursor: pointer;
