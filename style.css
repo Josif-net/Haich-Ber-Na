@@ -490,6 +490,14 @@ ul {
         margin-bottom: 20px;
         background-color: white;
     }
+    
+        .projwrap{
+        margin-left: 16px;
+    }
+
+    .projecttitles{
+        margin-left: 16px;
+    }
 
     .Projmainimage{
         display: flex;
