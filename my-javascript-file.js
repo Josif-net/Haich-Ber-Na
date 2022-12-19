@@ -43,8 +43,9 @@ for (const button of buttons) {
     selectedCats.forEach(function(cat) {
 
       for(const project of projects) {
-        if(cat === "all") {
+        if(cat === "All") {
           project.classList.remove("hidden")
+          console.log("hei")
           return;
         }
         const projCats = project.dataset.category.split(",")
